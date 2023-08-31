@@ -9,6 +9,7 @@ public class GameEnd : MonoBehaviour
 {
     public GameObject YouWinText;
     public GameObject Player;
+    public GameObject Sun;
     void Start()
     {
         
@@ -18,7 +19,7 @@ public class GameEnd : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider collider)
     {
         YouWinText.SetActive(true);
         Time.timeScale = 0f;

@@ -1605,6 +1605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   YouWinText: {fileID: 843551051}
   Player: {fileID: 2106487964}
+  Sun: {fileID: 1869392716}
 --- !u!4 &994492621
 Transform:
   m_ObjectHideFlags: 0
